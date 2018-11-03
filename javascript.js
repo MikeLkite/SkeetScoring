@@ -100,6 +100,7 @@ if ((counthit2 + countmiss2) >= 26) {
       $('.R3_26').text((roundscore + counthit3) - (counthit4))}
       if ((counthit3 + countmiss3) === 25) {
       alert("Round 3 Over")}
+      alert("Round 3 Over!")}
 
 if ((counthit3 + countmiss3) >= 26) {
     $('.R4_' + round_fourCurrentCell).text('O');
